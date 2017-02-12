@@ -18,13 +18,13 @@ $final_price = $marked_price - $discount_price;
         <h1>This page is under construction</h1>
 
         <label>Product Description:</label>
-        <span><?php echo $product_name; ?></span><br>
+        <span><b><?php echo $product_name; ?></b></span><br>
 
         <label>List Price:</label>
         <span><?php echo "$". $marked_price; ?></span><br>
 
         <label>Standard Discount:</label>
-        <span><?php echo $discount."%"; ?></span><br>
+        <span><i><?php echo $discount."%"; ?></i></span><br>
 
         <label>Discount Amount:</label>
         <span><?php echo "$". $discount_price ; ?></span><br>
