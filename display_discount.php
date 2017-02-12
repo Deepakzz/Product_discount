@@ -21,16 +21,16 @@ $final_price = $marked_price - $discount_price;
         <span><?php echo $product_name; ?></span><br>
 
         <label>List Price:</label>
-        <span><?php echo $marked_price; ?></span><br>
+        <span><?php echo "$". $marked_price; ?></span><br>
 
         <label>Standard Discount:</label>
-        <span><?php echo $discount; ?></span><br>
+        <span><?php echo $discount."%"; ?></span><br>
 
         <label>Discount Amount:</label>
-        <span><?php echo $discount_price ; ?></span><br>
+        <span><?php echo "$". $discount_price ; ?></span><br>
 
         <label>Discount Price:</label>
-        <span><?php echo $final_price ; ?></span><br>
+        <span><?php echo "$". $final_price ; ?></span><br>
     </main>
 </body>
 </html>
