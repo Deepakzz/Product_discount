@@ -15,7 +15,7 @@ $final_price = $marked_price - $discount_price;
 </head>
 <body>
     <main>
-        <h1>This page is under construction</h1>
+        <h1>Product Discount Calculator</h1>
 
         <label>Product Description:</label>
         <span><b><?php echo $product_name; ?></b></span><br>
