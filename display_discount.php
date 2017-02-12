@@ -2,6 +2,8 @@
 $product_name = $_POST['product_description'];
 $marked_price = $_POST['list_price'];
 $discount = $_POST['discount_percent'];
+$discount_price = ($marked_price * $discount)/100;
+
 ?>
 
 <!DOCTYPE html>
